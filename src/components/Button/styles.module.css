@@ -1,0 +1,27 @@
+
+.container {
+  background-color: var(--secondaryBlue);
+  padding: 8px 15px;
+  border-radius: 8px ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  text-align: left;
+  width: 130px;
+}
+.container:hover {
+  background-color: var(--golden);
+}
+.containerF {
+  justify-content: center;
+}
+.containerT {
+  justify-content: space-between;
+}
+.text {
+  margin: 0px;
+}
+.containerIcon {
+
+}

@@ -1,0 +1,47 @@
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+  margin: 13px 0px;
+}
+
+.checkboxContainer label {
+  cursor: pointer;
+  display: flex;
+}
+
+.checkboxContainer .input {
+  cursor: pointer;
+  opacity: 0;
+  position: absolute;
+}
+
+.checkboxContainer label::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  margin-right: 20px;
+  border: .05em solid var(--white);
+  background-color: var(--gray);
+}
+
+
+.checkboxContainer .input:disabled + label,
+.checkboxContainer .input:disabled {
+  color: var(--gray);
+  cursor: default;
+}
+
+.checkboxContainer .input:checked + label::before {
+  content: '\002714';
+  background-color: var(--secondaryBlue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.checkboxContainer .input:disabled + label::before {
+  background-color: var(--gray);
+  border-color: var(--white);
+}

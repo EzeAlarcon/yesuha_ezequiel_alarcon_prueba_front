@@ -1,0 +1,44 @@
+#root {
+  --blue: #0c1726;
+  --secondaryBlue: #3c5973;
+  --white: #ffffff;
+  --golden: #8C8377;
+  --gray: #d9d9d9;
+}
+
+body {
+  margin: 0px;
+  color: var(--white);
+  background-color: var(--white);
+
+}
+
+.firstSection {
+  display: flex;
+  background-color: var(--blue);
+}
+.containerHeaderHero {
+  width: 50%;
+  padding: 0 50px;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.containerAnimationSection {
+  width: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+  .firstSection {
+    flex-direction: column;
+  }
+  .containerHeaderHero {
+    width: 100%;
+    height: auto;
+  }
+  .containerAnimationSection {
+    width: 100%;
+    height: auto;
+
+  }
+}

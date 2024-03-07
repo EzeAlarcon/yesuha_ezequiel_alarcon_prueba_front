@@ -1,0 +1,35 @@
+.container {
+  background-color: var(--gray);
+  padding: 35px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerRadio {
+  background-color: var(--blue);
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin: 12px 0px;
+  width: 30%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.containerGroup {
+  width: 30%;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .containerGroup, .containerRadio {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    padding: 30px;
+  }
+}

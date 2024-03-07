@@ -1,0 +1,52 @@
+
+.container {
+  margin: 13px 0px;
+}
+.input {
+  display: none;
+}
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+  color: var(--white);
+  cursor: pointer;
+}
+.radioButton {
+  width: 20px;
+	height: 20px;
+	background-color: #fff;
+	display: inline-block;
+	border-radius: 50%;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	position: relative;
+  margin-right: 40px;
+}
+.radioButton::after {
+	content: '';
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	background-color: var(--secondaryBlue);
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+}
+
+.input:checked + label .radioButton::after {
+	opacity: 1;
+}
+
+.input:checked + label .radioButton {
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 1024px) {
+	.radioButton {
+		margin-right: 20px;
+
+	}
+}

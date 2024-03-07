@@ -1,0 +1,32 @@
+.container {
+  border-bottom: 1px solid white;
+  cursor: pointer;
+}
+.container:last-child {
+  border-bottom: 1px solid transparent;
+}
+.secondaryContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container p {
+  font-size: .8em;
+}
+
+.containerIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerIcon i {
+  font-size: .8em;
+}
+.containerSubItems {
+  padding: 0px 0px 0px 15px;
+
+}
+.itemSubmenu {
+  border-bottom: 1px solid white;
+
+}

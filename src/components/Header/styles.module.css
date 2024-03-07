@@ -1,0 +1,36 @@
+
+.containerMenu {
+  width: 100%;
+  display: flex;
+
+}
+.listMenu{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+}
+.itemMenu {
+  list-style: none;
+  font-weight: 300;
+  position: relative;
+  padding: 20px;
+}
+.itemMenu:hover .modalItemMenu{
+  display: initial;
+
+}
+.textItemMenu:hover {
+  font-weight: 500;
+}
+
+.modalItemMenu {
+  display: none;
+  position: absolute;
+  background-color: var(--secondaryBlue);
+  padding: 10px;
+  width: 120px;
+  left: 0px;
+  right: 0px;
+  border-radius: 5px;
+}
