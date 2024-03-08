@@ -18,7 +18,8 @@ https://www.linkedin.com/in/ezequiel-alarc%C3%B3n-mej%C3%ADa-520580255/
 
 # Clona el repositorio a travez de la linea de comando  https://github.com/EzeAlarcon/yesuha_ezequiel_alarcon_prueba_front.git en tu terminal 
 
-![image](https://github.com/EzeAlarcon/yesuha_ezequiel_alarcon_prueba_front/assets/138638611/eaa478a3-1461-484a-a21c-a0ba3737faac)
+![image](https://github.com/EzeAlarcon/yesuha_ezequiel_alarcon_prueba_front/assets/138638611/b1740e76-6707-4cd4-8448-9d0bfdcbed57)
+
 
 * IMPORTANTE USAR EL COMANDO GIT CLONE Y DESPUES LA RUTA COMO SE EVIDENCIA EN EL CMD
 
