@@ -8,12 +8,13 @@ https://dazzling-moxie-b64523.netlify.app/
 
 https://www.linkedin.com/in/ezequiel-alarc%C3%B3n-mej%C3%ADa-520580255/
 
-![image](https://github.com/EzeAlarcon/yesuha_ezequiel_alarcon_prueba_front/assets/138638611/626b73f2-d308-47cc-a914-08278a51c161)
-
-![image](https://github.com/EzeAlarcon/yesuha_ezequiel_alarcon_prueba_front/assets/138638611/8cbb9e78-fd2c-4be0-a144-6c48f0f8e405)
+![image](https://github.com/EzeAlarcon/yesuha_ezequiel_alarcon_prueba_front/assets/138638611/76d398d4-08f4-4c67-8d00-46d327819323)    ![image](https://github.com/EzeAlarcon/yesuha_ezequiel_alarcon_prueba_front/assets/138638611/66ce412b-2db7-4d00-add6-cf597c6c4d64)  ![image](https://github.com/EzeAlarcon/yesuha_ezequiel_alarcon_prueba_front/assets/138638611/eac10112-abfe-4e9a-9761-496d95fa3628)
 
 
-![image](https://github.com/EzeAlarcon/yesuha_ezequiel_alarcon_prueba_front/assets/138638611/d38a92bf-ff8e-4145-8f50-48d1f875424a)
+
+![image](https://github.com/EzeAlarcon/yesuha_ezequiel_alarcon_prueba_front/assets/138638611/3982c38b-5e00-424e-865f-2e184013018f)
+
+
 
 # Clona el repositorio a travez de la linea de comando  https://github.com/EzeAlarcon/yesuha_ezequiel_alarcon_prueba_front.git en tu terminal 
 
